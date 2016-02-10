@@ -1,3 +1,9 @@
+<!-- using shields.io for status buttons -->
+![Programming language](https://img.shields.io/badge/Language-JavaScript-black.svg)
+![Build Status](https://img.shields.io/badge/Build-Passing-green.svg)
+![UELVVA](https://img.shields.io/badge/Version-v1-blue.svg)
+
+
 # DailyHyperlinkColorChanger
 Changes the color of your hyperlinks depending on what day of the week it is.
 
