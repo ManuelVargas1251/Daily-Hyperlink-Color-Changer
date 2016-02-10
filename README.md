@@ -8,10 +8,4 @@ Using getDay() I was able to test what day it was and apply the neccesary change
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | 
 
-Today =
-<script>
-var d = new Date();
-var n = d.getDay()
-document.write(5+6);
-</script>
-
+After it's found the current date, it will then find all elements with the 'a' hyperlink code and replace the default color with the one specified in the if statement.
