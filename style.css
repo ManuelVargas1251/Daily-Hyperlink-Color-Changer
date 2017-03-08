@@ -1,19 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400);
-
 html {
   padding: 15px;
 }
-
 a {
   font-weight:700;
   text-decoration:none;
 }
-
 body {
-  font:35px/1.5 Lato, "Helvetica Neue", sans-serif;
+  font:35px/1.5 "Helvetica Neue", sans-serif;
   background-color: #fff;
 }
-
 sm {
   font-size: 26px;
 }
