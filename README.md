@@ -1,7 +1,7 @@
 <!-- using shields.io for status buttons -->
 ![Programming language](https://img.shields.io/badge/Language-JavaScript-black.svg)
-![Build Status](https://img.shields.io/badge/Build-Passing-green.svg)
-![UELVVA](https://img.shields.io/badge/Version-v1-blue.svg)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen.svg)
+![Version](https://img.shields.io/badge/Version-v1-blue.svg)
 
 
 # Daily Hyperlink Color Changer
@@ -23,6 +23,6 @@ save .js to project and paste what's below to the html file:
     <script src="dailyhyperlinkcolorchanger.js"></script>
 Make sure you paste this code lower in the html page like the footer so that all the links will have already loaded.
 
-You can view a demo on my main site: [manuelvargas.me](http://manuelvargas.me)
+You can view a demo on my main site: [manuelvargas.me](http://manuelvargas.me/Daily-Hyperlink-Color-Changer/)
 
 Or you can view my pen on [codepen.io](http://codepen.io/manuelvargas1251/pen/JGmZOL)
