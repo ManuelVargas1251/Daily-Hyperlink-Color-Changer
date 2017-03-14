@@ -17,7 +17,7 @@ Using getDay() I was able to test what day it was and apply a different color fo
 
 After it's found the current date, it will then find all elements with the 'a' hyperlink code and replace the default color with the one specified in the if statement.
 
-##How To Use
+## How To Use
 save .js to project and paste what's below to the html file:
 
     <script src="dailyhyperlinkcolorchanger.js"></script>
