@@ -17,6 +17,12 @@ Using getDay() I was able to test what day it was and apply a different color fo
 | Color | #cc334d | #ad33cc | #337fcc | #33ccc3 | #33cc57 | #f32 | #cc5733 | 
 
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+
 After it's found the current date, it will then find all elements with the 'a' hyperlink code and replace the default color with the one specified in the if statement.
 
 ## How To Use
