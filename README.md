@@ -7,7 +7,7 @@
 # Daily Hyperlink Color Changer
 Changes the color of your hyperlinks depending on what day of the week it is.
 
-##getDay()
+## getDay()
 Using getDay() I was able to test what day it was and apply a different color for each day
 
 | Getday() |  0 | 1 | 2 | 3 | 4 | 5 | 6 | 
