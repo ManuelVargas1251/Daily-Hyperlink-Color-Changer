@@ -10,10 +10,12 @@ Changes the color of your hyperlinks depending on what day of the week it is.
 ## getDay()
 Using getDay() I was able to test what day it was and apply a different color for each day
 
+
 | Getday() |  0 | 1 | 2 | 3 | 4 | 5 | 6 | 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Day | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
-| Color | #cc334d | #ad33cc | #337fcc | #33ccc3 | #33cc57 | #f32 | #cc5733| 
+| Color | #cc334d | #ad33cc | #337fcc | #33ccc3 | #33cc57 | #f32 | #cc5733 | 
+
 
 After it's found the current date, it will then find all elements with the 'a' hyperlink code and replace the default color with the one specified in the if statement.
 
