@@ -25,6 +25,6 @@ save .js to project and paste what's below to the html file:
 ```
 Make sure you paste this code lower in the html page like the footer so that all the links will have already loaded before script runs.
 
-You can view a demo on my main site: [manuelvargas.me](http://manuelvargas.me/Daily-Hyperlink-Color-Changer/)
+You can view a demo on my main site: [mnl.space](http://mnl.space/Daily-Hyperlink-Color-Changer/)
 
 Or you can view my pen on [codepen.io](http://codepen.io/manuelvargas1251/pen/JGmZOL)
