@@ -15,6 +15,6 @@ let dayColors = [
 ];  //necessary semi ☹
 
 //changes color for each link tag on page
-[].slice.call(elements).forEach(function (e) {
-  e.style.color = dayColors[currentDay]
+[].slice.call(elements).forEach(function (element) {
+  element.style.color = dayColors[currentDay]
 })
