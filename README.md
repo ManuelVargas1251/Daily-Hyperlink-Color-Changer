@@ -38,7 +38,7 @@ let dayColors = [
   '#cc5733'   //saturday
 ];  //necessary semi-colon 😕
 
-//changes color for each link tag on page
+//changes color for each h1 tag on the page
 [].slice.call(elements).forEach(function (element) {
   element.style.color = dayColors[currentDay]
 })
