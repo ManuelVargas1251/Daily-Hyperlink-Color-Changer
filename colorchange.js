@@ -1,8 +1,8 @@
 //gets the number value of the day of the week; 0 through 6
 let currentDay = new Date().getDay()
 
-//find all elements with link tag, 'a'
-let elements = document.querySelectorAll('a')
+//find all elements with header 1 tag
+let elements = document.querySelectorAll('h1')
 
 let dayColors = [
   '#cc334d',  //sunday
