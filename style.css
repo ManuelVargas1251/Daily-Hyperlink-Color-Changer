@@ -1,16 +1,35 @@
-html {
-  padding: 15px;
+html, body,
+sun,mon,tues,
+wed,thurs,fri,sat{
+  padding: 4px 19px;
   font-weight: bold;
-  font:35px/1.5 "Helvetica Neue", sans-serif;
-  background-color: rgb(0, 0, 0);
+  font:38px/1.5 "Helvetica Neue", sans-serif;
+  background-color: rgb(0, 4, 27);
   color: white;
+  /* display: block; */
 }
 a {
   text-decoration:none;
 }
-sm {
-  font-size: 26px;
+
+sun{
+color: #cc334d;
 }
-font{
-  display: block;
+mon{
+color: #ad33cc;
+}
+tues{
+color: #337fcc;
+}
+wed{
+color: #33ccc3;
+}
+thurs{
+color: #33cc57;
+}
+fri{
+color: #c7cc33;
+}
+sat{
+color: #cc5733;
 }
