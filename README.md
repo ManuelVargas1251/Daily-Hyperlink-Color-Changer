@@ -1,6 +1,6 @@
 <!-- using shields.io for status buttons -->
 ![Programming language](https://img.shields.io/badge/Language-JavaScript-black.svg)
-![Version](https://img.shields.io/badge/Version-1.1.4-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.1.5-blue.svg)
 
 
 # Daily Hyperlink Color Changer
