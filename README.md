@@ -8,10 +8,10 @@ Changes the color of a page's linked text depending on what day of the week it i
 
 
 ## Usage
-Download `colorchange.min.js` and include in HTML page
+Download `colorchange.min.ts` and include in HTML page
 
 ```html
-<script src="colorchange.min.js"></script>
+<script src="colorchange.min.ts"></script>
 ```
 Place this code last inside the body so that all the links will have already loaded before the script runs.
 

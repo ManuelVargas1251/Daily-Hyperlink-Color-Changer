@@ -1,0 +1,3 @@
+(function(){let currentDay=new Date().getDay()
+    let elements=document.querySelectorAll('h1')
+    let dayColors=['#cc334d','#ad33cc','#337fcc','#33ccc3','#33cc57','#c7cc33','#cc5733'];[].slice.call(elements).forEach(function(element){element.style.color=dayColors[currentDay]})})()
