@@ -1,6 +1,6 @@
 <!-- using shields.io for status buttons -->
 ![Programming language](https://img.shields.io/badge/Language-JavaScript-black.svg)
-![Version](https://img.shields.io/badge/Version-1.1.3-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.1.4-blue.svg)
 
 
 # Daily Hyperlink Color Changer
@@ -20,6 +20,7 @@ This repo includes a demo `index.html` using the script. You can view a demo on 
 
 
 ## The Code
+The code is pretty short
 
 ```javascript
 //gets the number value of the day of the week; 0 through 6
@@ -42,4 +43,11 @@ let dayColors = [
 [].slice.call(elements).forEach(function (element) {
   element.style.color = dayColors[currentDay]
 })
+```
+
+And smaller minified by [minifier.org](https://www.minifier.org/)
+```javascript
+let currentDay=new Date().getDay()
+let elements=document.querySelectorAll('h1')
+let dayColors=['#cc334d','#ad33cc','#337fcc','#33ccc3','#33cc57','#c7cc33','#cc5733'];[].slice.call(elements).forEach(function(element){element.style.color=dayColors[currentDay]})
 ```
