@@ -1,6 +1,7 @@
 <!-- using shields.io for status buttons -->
-![Programming language](https://img.shields.io/badge/Language-Javascript-blue.svg)
+![Programming language](https://img.shields.io/badge/Language-Typescript-blue.svg)
 ![Version](https://img.shields.io/badge/Version-1.1.9-yellow.svg)
+![Travis-CI](https://travis-ci.com/ManuelVargas1251/Daily-Hyperlink-Color-Changer.svg?branch=enhancement%2Fts)
 # Daily Hyperlink Color Changer
 Changes the color of a page's linked text depending on what day of the week it is.
 
