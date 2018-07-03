@@ -1,0 +1,19 @@
+{
+  "name": "daily-hyperlink-color-changer",
+  "version": "1.0.0",
+  "description": "changes link color based on day of the week",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelVargas1251/Daily-Hyperlink-Color-Changer.git"
+  },
+  "author": "Manuel Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelVargas1251/Daily-Hyperlink-Color-Changer/issues"
+  },
+  "homepage": "https://github.com/ManuelVargas1251/Daily-Hyperlink-Color-Changer#readme"
+}
