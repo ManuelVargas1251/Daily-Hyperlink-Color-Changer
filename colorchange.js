@@ -1,4 +1,4 @@
-(function () {
+module.exports = (function () {
     //gets the number value of the day of the week; 0 through 6
     var currentDay = new Date().getDay();
     //find all elements with header 1 tag
