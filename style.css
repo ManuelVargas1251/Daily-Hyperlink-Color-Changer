@@ -6,6 +6,7 @@ wed,thurs,fri,sat{
   font:38px/1.5 "Helvetica Neue", sans-serif;
   background-color: rgb(0, 4, 27);
   color: white;
+  overflow: hidden;
 }
 h1 {
   text-decoration:none;
@@ -31,4 +32,7 @@ color: #c7cc33;
 }
 sat{
 color: #cc5733;
+}
+::selection {
+  background: #41ff1b;
 }
