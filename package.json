@@ -17,6 +17,22 @@
   },
   "homepage": "https://github.com/ManuelVargas1251/Daily-Hyperlink-Color-Changer#readme",
   "devDependencies": {
-    "jest": "^23.2.0"
+    "@types/jest": "^23.1.4",
+    "jest": "^23.2.0",
+    "ts-jest": "^23.0.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
