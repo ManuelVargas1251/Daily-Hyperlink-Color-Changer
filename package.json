@@ -18,5 +18,8 @@
   "homepage": "https://github.com/ManuelVargas1251/Daily-Hyperlink-Color-Changer#readme",
   "devDependencies": {
     "jest": "^23.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18"
   }
 }

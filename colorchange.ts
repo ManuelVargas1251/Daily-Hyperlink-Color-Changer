@@ -1,4 +1,4 @@
-function colorchange () {
+function colorchange() {
 	//gets the number value of the day of the week; 0 through 6
 	let currentDay: number = new Date().getDay();
 	//find all elements with header 1 tag
@@ -18,6 +18,17 @@ function colorchange () {
 		element.style.color = dayColors[currentDay];
 	})
 
+	return dayColors[currentDay];
 };
 
-//module.exports = colorchange
+// execute function on page load
+colorchange();
+
+// handle error for js conversion
+try {
+    module.exports = colorchange;
+} catch (error) {
+    console.log('jest: exporting module for testing');
+}
+
+

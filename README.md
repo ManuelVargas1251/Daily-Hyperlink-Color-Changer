@@ -6,12 +6,23 @@
 Changes the color of a page's linked text depending on what day of the week it is.
 
 ## Usage
-Download `colorchange.js` and include in HTML page
+Download `colorchange.js` and include in HTML page. Refresh the page/clear cache?
+
 ```html
 <script src="colorchange.js"></script>
 ```
 Place this code inside the body; all links will have loaded before the script runs.
 
+## Testing
+I first compile my typescript code to javascript and test using jest by Facebook.
+
+```
+node install
+tsc colorchange.ts
+npm test
+```
+
 This repo includes a demo `index.html` using the script. You can view a demo here: [mnl.space](http://mnl.space/Daily-Hyperlink-Color-Changer/). 
 
 Or you can view my pen on [codepen.io](http://codepen.io/manuelvargas1251/pen/JGmZOL)
+

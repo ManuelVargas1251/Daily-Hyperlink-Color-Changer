@@ -1,4 +1,4 @@
-var colorchange = (function () {
+function colorchange() {
     //gets the number value of the day of the week; 0 through 6
     var currentDay = new Date().getDay();
     //find all elements with header 1 tag
@@ -16,4 +16,15 @@ var colorchange = (function () {
     [0].slice.call(elements).forEach(function (element) {
         element.style.color = dayColors[currentDay];
     });
-})();
+    return dayColors[currentDay];
+}
+;
+// execute function on page load
+colorchange();
+// handle error for js conversion
+try {
+    module.exports = colorchange;
+}
+catch (error) {
+    console.log('jest: exporting module for testing');
+}
