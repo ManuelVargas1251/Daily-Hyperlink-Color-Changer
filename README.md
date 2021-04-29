@@ -14,11 +14,10 @@ Download `colorchange.js` and include in HTML page. Refresh the page/clear cache
 Place this code inside the body; all links will have loaded before the script runs.
 
 ## Testing
-I first compile my typescript code to javascript and test using jest by Facebook.
-
+Testing with Jest.
+ 
 ```
-node install
-tsc colorchange.ts
+npm install
 npm test
 ```
 
